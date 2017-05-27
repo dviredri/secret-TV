@@ -4,6 +4,8 @@ body {
 }
 nav{
     background-color: black;
+    position: fixed;
+    width:100%;
 }
 nav ul{
   text-align: center;
@@ -24,6 +26,11 @@ nav li a {
   font-family: 'Roboto', sans-serif;
 
 }
+.hero{
+  background: url(http://www.elevationacademy.co/wp-content/uploads/2016/02/Tel-Aviv.jpg) no-repeat center fixed;
+  background-size: cover;
+  height: 700px;
+}
 .hero-image {
   width: 100%;
   max-width: 500px;
@@ -31,8 +38,49 @@ nav li a {
   margin: 0 auto;
 
 }
+h1 {
+  margin: 0;
+  font-family: 'Roboto';
+  text-align: center;
+  font-weight: bold;
+  padding: 25px;
+}
 
-.hero{
-  background: url(http://www.elevationacademy.co/wp-content/uploads/2016/02/Tel-Aviv.jpg) no-repeat center fixed;
-background-size: cover;
+h3 {
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto';
+  margin-bottom: 5px;
+  font-size: 18px;
+}
+
+.food {
+  background-color: #ddd;
+  display: inline;
+  
+
+  }
+
+.brunch{
+  float: left;
+  width:33%;
+}
+
+.shakshuka{
+  float: left;
+  width:33%;
+}
+
+.plates{
+  float: left;
+  width:33%;
+}
+.hero-brunch{
+  width: 100%
+}
+.hero-shakshuka{
+  width: 100%;
+}
+.hero-plates{
+  width:100%;
 }
